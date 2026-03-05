@@ -1,0 +1,9 @@
+﻿# Build folders
+bin/
+obj/
+
+# Visual Studio
+/.vs
+/languages/csharp-lab/.vs
+*.user
+*.suo
