@@ -8,53 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net9.0\runner.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net9.0\runner.GlobalUsings.g.cs" />
-    <Compile Include="obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\net9.0\runner.AssemblyInfo.cs" />
-    <Compile Include="obj\Release\net9.0\runner.GlobalUsings.g.cs" />
+    <Compile Remove="bin\**" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="bin\**" />
+    <None Remove="obj\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\net9.0\runner.deps.json" />
-    <Content Include="bin\Debug\net9.0\runner.runtimeconfig.json" />
-    <Content Include="obj\Debug\net9.0\runner.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\project.assets.json" />
-    <Content Include="obj\runner.csproj.nuget.dgspec.json" />
-    <Content Include="obj\_runner.csproj.nuget.dgspec.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="bin\Release\net9.0\" />
     <Folder Include="challenges\" />
-    <Folder Include="exercises\" />
-    <Folder Include="obj\Release\net9.0\refint\" />
-    <Folder Include="obj\Release\net9.0\ref\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="bin\Debug\net9.0\runner.dll" />
-    <None Include="bin\Debug\net9.0\runner.exe" />
-    <None Include="bin\Debug\net9.0\runner.pdb" />
-    <None Include="obj\Debug\net9.0\apphost.exe" />
-    <None Include="obj\Debug\net9.0\refint\runner.dll" />
-    <None Include="obj\Debug\net9.0\ref\runner.dll" />
-    <None Include="obj\Debug\net9.0\runner.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net9.0\runner.assets.cache" />
-    <None Include="obj\Debug\net9.0\runner.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net9.0\runner.dll" />
-    <None Include="obj\Debug\net9.0\runner.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net9.0\runner.genruntimeconfig.cache" />
-    <None Include="obj\Debug\net9.0\runner.pdb" />
-    <None Include="obj\project.nuget.cache" />
-    <None Include="obj\Release\net9.0\runner.AssemblyInfoInputs.cache" />
-    <None Include="obj\Release\net9.0\runner.assets.cache" />
-    <None Include="obj\Release\net9.0\runner.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\runner.csproj.nuget.g.props" />
-    <None Include="obj\runner.csproj.nuget.g.targets" />
-    <None Include="obj\_runner.csproj.nuget.g.props" />
-    <None Include="obj\_runner.csproj.nuget.g.targets" />
   </ItemGroup>
 
 </Project>
