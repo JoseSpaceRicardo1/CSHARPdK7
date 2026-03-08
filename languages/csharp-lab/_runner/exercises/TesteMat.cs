@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace runner.exercises
+﻿namespace runner.exercises;
+public class TesteMat
 {
-    public class TesteMat : IRunnable
+    public static void Run()
     {
-        public string Category => "exercises";
+        var a = 10;
+        var b = 32;
+        Console.WriteLine($"A soma de {a} + {b} é {a + b}");
 
-        public void Execute()
-        {
-            int a = 10;
-            int b = 32;
-            Console.WriteLine($"A soma de {a} + {b} é {a + b}");
+        void Saudacao(string nome) => Console.WriteLine($"Olá, {nome}!");
+        Saudacao("José");
 
-            void Saudacao(string nome) => Console.WriteLine($"Olá, {nome}!");
-            Saudacao("José");
-        }
+        Console.Write("Digite algo: ");
+        var input = Console.ReadLine();
+        Console.WriteLine($"Você digitou: {input}");
+
     }
 }
+    

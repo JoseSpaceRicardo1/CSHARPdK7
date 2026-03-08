@@ -1,12 +1,8 @@
-﻿
-namespace runner.exercises
+﻿namespace runner.exercises;
+public class HelloWorld
 {
-    public class HelloWorld : IRunnable
+public static void Run()
     {
-        public string Category => "exercises";
-        public void Execute()
-        {
-            Console.WriteLine("Hello World");
-        }
+        Console.WriteLine("Hello, World!");
     }
 }
